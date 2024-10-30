@@ -1,0 +1,254 @@
+@font-face {
+    font-family: Sansation;
+    src: url(Sansation_Regular.ttf);
+}
+
+.bleeper_div {
+    background: #fff;
+    padding: 2em 2em 1em;
+    font-family: 'Sansation';
+    display: block;
+    position: relative;
+    height:80vh;
+    
+}
+.bleeper_center {
+	text-align: center;
+}
+
+.bleeper_inner_div {
+	
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0;
+
+	
+}
+
+.bleeper_grid {
+	width:100%;
+	display:flex;
+}
+
+.bleeper_grid_2 {
+    width:49.9%;
+    display:flex;
+}
+
+
+.bleeper_grid_4 {
+	width:33.2%;
+	display:flex;
+}
+.bleeper_grid_inner {
+	margin:10px;
+	padding:10px;
+	width:100%;
+}
+
+.bleeper_material_card {
+    box-shadow: 0 1px 6px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding: 30px 35px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 100%;
+}
+.bleeper_material_card:hover {
+    box-shadow: 0 14px 18px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.09);
+}
+
+.bleeper_material_card .bleeper_primary_button {
+    padding: 5px 15px;
+}
+
+.bleeper_primary_button {
+    transition: all .13s ease-in-out;
+}
+a.bleeper_primary_button {
+	text-decoration: none !important;
+}
+.bleeper_primary_button {
+    border: none;
+    background: #4169e1;
+    color: #fff;
+    padding: 12px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size:1.4em;
+
+}
+.bleeper_primary_button:hover {
+    background: #6482de;
+    text-decoration: none;
+    color: #fff !important;
+}
+.bleeper_primary_button:active {
+    color: #fff !important;
+}
+.bleeper_primary_button:visited {
+    color: #fff !important;
+}
+
+
+.bleeper_error {
+	font-size:1.4em;
+	color:red;
+	font-weight:bold;
+}
+
+.bleeper_iframe {
+	width: 100%;
+    height: 100%;
+    
+    
+}
+.toplevel_page_bleeper #wpcontent {
+    margin-left: 140px;
+}
+@media only screen and (max-width: 960px) {
+    .toplevel_page_bleeper #wpcontent {
+        margin-left:0px;
+    }
+}
+
+
+label { font-weight: bolder; }  
+ #bleeper_tabs .ui-tabs-nav {
+    padding:0; 
+    height:auto;  
+}
+
+#bleeper_tabs .ui-tabs-nav {
+    border-bottom: none !important; 
+    margin-top: 0px !important;
+}
+#bleeper_tabs .ui-tabs-panel{
+    padding:0;
+}
+#bleeper_tabs .ui-tabs-panel table {
+/*    border: 1px solid #E7e7e7;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;*/
+    padding: 5px;
+}
+#bleeper_tabs .ui-state-default{
+background-color: #eee;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-top-right-radius: 0px;
+height: 29px;
+padding: 0px 20px;
+line-height: 30px;
+border: none !important;
+
+}
+#bleeper_tabs .ui-state-default a{
+    color:#000;
+    text-decoration:none;
+    padding-left: 20px;
+}
+#bleeper_tabs .ui-state-default a:hover{
+    text-decoration:none;    
+    cursor: pointer;
+    background-color: #ddd;
+    color: #000;
+}
+
+#bleeper_tabs .ui-state-active a:hover{
+    cursor: pointer;
+    color: #0073aa;
+}
+#bleeper_tabs .ui-state-active {
+    background-color: #fff;
+    border: none !important;
+ /*   border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left: 1px solid #303E48;
+    border-top: 1px solid #303E48;  
+    border-right: 1px solid #303E48;    
+    height: 28px; */
+}
+#bleeper_tabs .ui-state-active a{
+    color: #000 !important;
+}
+#bleeper_tabs .ui-tabs-nav {
+    text-align: left;
+}
+/*#bleeper_tabs .ui-tabs-nav li {
+    float: none !important;
+    display: inline-block;
+    
+}*/  
+
+
+/* Vertical tab CSS */
+#bleeper_tabs {
+    background: #fff;
+    padding: 5px;
+
+    border-radius: 3px;
+
+    box-shadow: 0 0 40px 1px rgba(0,0,0,.07);
+    -webkit-box-shadow: 0 0 40px 1px rgba(0,0,0,.07);
+    -moz-box-shadow: 0 0 40px 1px rgba(0,0,0,.07);
+    -o-box-shadow: 0 0 40px 1px rgba(0,0,0,.07);
+}
+
+
+.ui-tabs-panel {
+    
+    clear:right;
+
+}
+.bleeper-save {
+    clear:left;
+    margin-right:0;
+    display:block !important;
+    margin-left:205px !important;
+    
+}
+#bleeper_tabs table {
+    padding: 0 !important;
+}
+
+#bleeper_tabs table textarea {
+    width: 100%;
+}
+
+#bleeper_tabs p.submit {
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 0px;
+}
+
+.ui-tabs-vertical {  }
+  .ui-tabs-vertical .ui-tabs-nav {
+      padding: .2em .1em .2em .2em;
+      float: left;
+      /* width: 10%; */
+      max-width: 20%;
+      min-width: 190px;
+  }
+  .ui-tabs-vertical .ui-tabs-nav li { 
+    clear: left; 
+    width: 100%; 
+    border-bottom-width: 1px !important; 
+    border-right-width: 0 !important; 
+    margin: 0 -1px .2em 0; 
+    padding: 0 !important;
+    float: left !important;
+}
+
+  .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+  .ui-tabs-vertical .ui-tabs-panel {
+      padding: 1em !important; 
+      float: left;
+      min-width: 72%;
+      max-width: 75%;
+  }
